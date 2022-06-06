@@ -16,7 +16,7 @@
   			font-weight: 900;
 		}
 		.poems {
-			font-family: 'cjkFonts 全瀨體'; /* Strong Baseline 字型檔 */
+			font-family: 'StrongFont','KuanFont','cjkFonts 全瀨體'; /* Strong Baseline 字型檔 */
 		}
 		@font-face {
 			font-family: MyHelvetica;
@@ -24,6 +24,12 @@
 			src: local("KuanFont"), url(KuanFont.ttf);
 			/* src: local("cjkFonts_allseto_v1.11"), url(cjkFonts_allseto_v1.11.ttf); Strong Baseline 字型檔 */
 			font-weight: bold;
+		}
+		@font-face {
+			font-family: StrongFont;
+            src: url(https://raw.githubusercontent.com/Circle472/ct2022s/main/hw04/StrongFont.ttf);
+			font-weight: bold;
+
 		}
 		a:visited { color: #0000EE; }
 		a:hover { color: #FF5151; }
